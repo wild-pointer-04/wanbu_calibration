@@ -1,0 +1,31 @@
+# GMSL双目针孔相机内参标定程序依赖包
+# 安装命令: pip install -r requirements.txt
+
+# OpenCV - 计算机视觉库 (必需)
+# 用于图像处理、棋盘格检测和相机标定
+opencv-python>=4.5.0
+
+# 或者使用完整版本 (包含更多功能，二选一即可)
+# opencv-contrib-python>=4.5.0
+
+# NumPy - 数值计算库 (必需)
+# 用于矩阵运算和数组处理
+numpy>=1.19.0
+
+# 注意事项:
+# 1. Python版本要求: Python 3.7 或更高版本
+# 2. opencv-python 和 opencv-contrib-python 只需安装其中一个
+# 3. 如果已经安装了opencv-contrib-python，不需要再安装opencv-python
+# 4. 推荐使用虚拟环境安装依赖
+
+# 安装步骤:
+# 1. 创建虚拟环境 (可选但推荐):
+#    python3 -m venv venv
+#    source venv/bin/activate  # Linux/Mac
+#    # 或 venv\Scripts\activate  # Windows
+#
+# 2. 安装依赖:
+#    pip install -r requirements.txt
+#
+# 3. 验证安装:
+#    python -c "import cv2; import numpy as np; print('OpenCV版本:', cv2.__version__)"

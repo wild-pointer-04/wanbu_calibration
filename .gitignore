@@ -1,0 +1,10 @@
+# 忽略所有数据和输出
+data/
+outputs/
+ckpt/
+*.zip
+*.tar.gz
+
+# 忽略 Python 缓存
+__pycache__/
+*.pyc
